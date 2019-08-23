@@ -1,0 +1,28 @@
+{
+  "name": "node12-template-action-with-webpack",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Node 12 template action",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunlea/github-actions-javascript-template.git"
+  },
+  "keywords": [
+    "actions",
+    "node",
+    "setup"
+  ],
+  "author": "chunlea",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.4"
+  }
+}
